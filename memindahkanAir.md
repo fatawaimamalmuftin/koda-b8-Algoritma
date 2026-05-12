@@ -1,3 +1,7 @@
+# Algoritma type penulisan : Deskriptif
+
+## Case: memindahkan isi Gelas Kopi dengan isi Gelas Teh
+
 1. Mudai
 2. kodisi awal ada gelasA(teh) dan gelasB(kopi)
 3. siapkan gelasC(kosong)
