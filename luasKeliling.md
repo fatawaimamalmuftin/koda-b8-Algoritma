@@ -25,8 +25,8 @@ flowchart TD
 mulai@{shape: circle, label: "Start"}
 Rijari@{ shape: lean-r, label: "Rijari" }
 Phi@{ shape: rect, label: "Phi='3.14'" }
-Luas@{shape: rect, label: "Phi x Rijari x Rijari"}
-Keliling@{shape: rect, label: "2 x Phi x Rijari"}
+Luas@{shape: rect, label: "HL = Phi x Rijari x Rijari"}
+Keliling@{shape: rect, label: "HK = 2 x Phi x Rijari"}
 HL@{ shape: lean-r, label: "'HL'" }
 HK@{ shape: lean-r, label: "'HK'" }
 selesai@{shape: doublecircle, label: "end"}
@@ -34,10 +34,9 @@ selesai@{shape: doublecircle, label: "end"}
 mulai-->Rijari
 Rijari-->Phi
 Phi-->Luas
-Phi-->Keliling
-Luas-->HL
-Keliling-->HK
-HL-->selesai
+Luas-->Keliling
+Keliling-->HL
+HL-->HK
 HK-->selesai
 
 ```
