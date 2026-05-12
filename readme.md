@@ -24,3 +24,22 @@ mulai-->huruf-->i
 i--loop-->huruf
 i--true-->s-->selesai
 ```
+
+## PSeudo-Code case: mengecek kata palingdrome
+
+```memaid
+pseudo
+
+DECLARE kata : STRING
+DECLARE s : INTEGER
+
+INPUT kata
+
+FOR s <- 0 TO kata
+IF kata(s) == kata THEN
+    OUTPUT "Palingdrome"
+ELSE
+    OUTPUT "Bukan Palingdrome"
+ENDIF
+
+```
