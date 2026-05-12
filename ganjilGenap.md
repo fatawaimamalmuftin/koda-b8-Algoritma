@@ -31,3 +31,17 @@ hasilGj-->selesai
 
 
 ```
+
+```pseudo
+
+DECLARE angka: INTEGER
+
+INPUT angka
+
+IF angka % 2 == 0
+    OUTPUT "genap"
+ELSE
+    OUTPUT "ganjil"
+ENDIF
+
+```
