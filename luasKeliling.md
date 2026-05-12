@@ -19,3 +19,25 @@ Keliling = 2 x phi x r
 8. membuat penampung hasil keliling (HK)
 9. memanggil HL dan HK untuk menampilkan hasil
 10. selesai
+
+```mermaid
+flowchart TD
+mulai@{shape: circle, label: "Start"}
+Rijari@{ shape: lean-r, label: "Rijari" }
+Phi@{ shape: lean-r, label: "'3.14'" }
+Luas@{shape: rect, label: "'3.14' x Rijari x Rijari"}
+Keliling@{shape: rect, label: "2 x '3.14' x Rijari"}
+HL@{ shape: lean-r, label: "'HL'" }
+HK@{ shape: lean-r, label: "'HK'" }
+selesai@{shape: doublecircle, label: "end"}
+
+mulai-->Rijari
+Rijari-->Phi
+Phi-->Luas
+Phi-->Keliling
+Luas-->HL
+Keliling-->HK
+HL-->selesai
+HK-->selesai
+
+```
