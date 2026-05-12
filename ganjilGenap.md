@@ -17,7 +17,7 @@ flowchart TD
 
 mulai@{shape: circle, label: "Start"}
 angka@{ shape: lean-r, label: "angka" }
-modulus@{ shape: diamond, label: "angka % 2 === 0" }
+modulus@{ shape: diamond, label: "angka % 2 == 0" }
 hasilGn@{ shape: lean-r, label: "'genap'" }
 hasilGj@{ shape: lean-r, label: "'ganjil'" }
 selesai@{shape: doublecircle, label: "end"}
