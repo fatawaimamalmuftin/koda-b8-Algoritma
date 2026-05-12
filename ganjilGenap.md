@@ -9,3 +9,26 @@
 5. menentukan bilangan ganjil adalah dengan membagi penampung(Angka) dengan 2 kalo sisa brarti itu bilangan ganjil
 6. masukan ke penampung hasil
 7. selesai
+
+### Flowchart
+
+```mermaid
+flowchart TD
+
+mulai@{shape: circle, label: "Start"}
+angka@{ shape: lean-r, label: "angka" }
+modulus@{ shape: diamond, label: "sisa modulus 2 = 0" }
+hasilGn@{ shape: rect, label: "hasil = genap" }
+hasilGj@{ shape: rect, label: "hasil = ganjil"}
+hasil@{ shape: rect, label: "hasil"}
+selesai@{shape: doublecircle, label: "Start"}
+
+mulai-->
+angka-->
+modulus--true-->hasilGn
+modulus--false-->hasilGj
+hasilGn-->hasil
+hasilGj-->hasil
+hasil-->selesai
+
+```
