@@ -16,11 +16,11 @@
 flowchart TD
 
 mulai@{shape: circle, label: "Start"}
-angka@{ shape: lean-r, label: "angka" }
+angka@{ shape: lean-r, label: "input: angka" }
 modulus@{ shape: diamond, label: "sisa modulus 2 = 0" }
 hasilGn@{ shape: rect, label: "hasil = genap" }
 hasilGj@{ shape: rect, label: "hasil = ganjil"}
-hasil@{ shape: rect, label: "hasil"}
+hasil@{ shape: lean-r, label: "Output: hasil"}
 selesai@{shape: doublecircle, label: "Start"}
 
 mulai-->
