@@ -16,12 +16,15 @@ flowchart TD
 
 mulai@{ shape: circle, label: "Start"}
 huruf@{ shape: lean-r, label: "kata"}
+huruf2@{ shape: lean-r, label: "{kata}"}
 i@{ shape: diamond, label: "s == kata"}
 s@{ shape: lean-r, label: "'Palingdrome'"}
+s2@{ shape: lean-r, label: "'Bukan Palingdrome'"}
 selesai@{ shape: doublecircle, label: "End"}
 
 mulai-->huruf-->i
-i--loop-->huruf
+i--loop-->huruf2-->
+i--false-->s2-->selesai
 i--true-->s-->selesai
 ```
 
@@ -35,8 +38,9 @@ DECLARE s : INTEGER
 
 INPUT kata
 
-FOR s <- 10 TO 0
-NEXT
+FOR s <- 10 TO 1
+    kata <- s
+NEXT s
 IF s == kata THEN
     OUTPUT "Palindrome"
 ELSE
