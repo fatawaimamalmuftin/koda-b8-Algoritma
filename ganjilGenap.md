@@ -4,10 +4,9 @@
 
 1. mulai
 2. membuat penampung dengan nama Angka
-3. menentukan bilangan genap dengan membagi penampung(Angka) modulus 2 kalo habis brarti itu bilangan genap
-4. menentukan bilangan ganjil dengan membagi penampung(Angka) modulus 2 kalo sisa brarti itu bilangan ganjil
-5. masukan ke penampung hasil
-6. selesai
+3. menentukan bilangan genap dengan membagi penampung(Angka) modulus 2 kalo habis brarti itu bilangan genap kalo sisa brarti itu bilangan ganjil
+4. masukan ke penampung hasil
+5. selesai
 
 ### Flowchart
 
@@ -18,12 +17,16 @@ mulai@{shape: circle, label: "Start"}
 angka@{ shape: lean-r, label: "angka" }
 modulus@{ shape: diamond, label: "angka % 2 == 0" }
 selesai@{shape: doublecircle, label: "end"}
+genap@{ shape: lean-r, label: "'genap'" }
+ganjil@{ shape: lean-r, label: "'ganjil'" }
 
-mulai-->
-angka-->
-modulus--ganjil-->selesai
-modulus--genap-->selesai
+mulai-->angka-->modulus-->ganjil
+                modulus-->genap
+ganjil-->selesai
+genap-->selesai
 ```
+
+### PSeudo-Code
 
 ```pseudo
 
