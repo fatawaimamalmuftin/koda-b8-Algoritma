@@ -1,15 +1,15 @@
 # ALGORITMA
 
-## DESKRIPTIF case: mengecek kata palingdrome
+## DESKRIPTIF case: mengecek kata palidrome
 
 1. start
 2. buat penampung (Kata)
 3. eja kata tiap huruf dari akhir ke awal masukan di penampung (s)
-4. kalo s sama dengan kata brarti palingdrome
+4. kalo s sama dengan kata brarti palidrome
 5. kalo tidak sama brati tidak palingdrome
 6. end
 
-## Flowchart case: mengecek kata palingdrome
+## Flowchart case: mengecek kata palindrome
 
 ```mermaid
 flowchart TD
@@ -25,7 +25,7 @@ i--loop-->huruf
 i--true-->s-->selesai
 ```
 
-## PSeudo-Code case: mengecek kata palingdrome
+## PSeudo-Code case: mengecek kata palindrome
 
 ```memaid
 pseudo
@@ -35,11 +35,12 @@ DECLARE s : INTEGER
 
 INPUT kata
 
-FOR s <- 0 TO kata
-IF kata(s) == kata THEN
-    OUTPUT "Palingdrome"
+FOR s <- 10 TO 0
+NEXT
+IF s == kata THEN
+    OUTPUT "Palindrome"
 ELSE
-    OUTPUT "Bukan Palingdrome"
+    OUTPUT "Bukan Palindrome"
 ENDIF
 
 ```
