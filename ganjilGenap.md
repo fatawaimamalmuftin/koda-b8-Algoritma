@@ -4,9 +4,8 @@
 
 1. mulai
 2. membuat penampung dengan nama Angka
-3. menentukan bilangan genap dengan membagi penampung(Angka) modulus 2 kalo habis brarti itu bilangan genap kalo sisa brarti itu bilangan ganjil
-4. masukan ke penampung hasil
-5. selesai
+3. membagi penampung(Angka) modulus 2 kalo habis brarti itu bilangan genap, kalo sisa brarti itu bilangan ganjil
+4. selesai
 
 ### Flowchart
 
