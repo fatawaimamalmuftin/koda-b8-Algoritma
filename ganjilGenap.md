@@ -21,7 +21,7 @@ modulus@{ shape: diamond, label: "sisa modulus 2 = 0" }
 hasilGn@{ shape: rect, label: "hasil = genap" }
 hasilGj@{ shape: rect, label: "hasil = ganjil"}
 hasil@{ shape: lean-r, label: "Output: hasil"}
-selesai@{shape: doublecircle, label: "Start"}
+selesai@{shape: doublecircle, label: "end"}
 
 mulai-->
 angka-->
