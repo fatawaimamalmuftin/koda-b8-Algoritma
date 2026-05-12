@@ -16,19 +16,18 @@
 flowchart TD
 
 mulai@{shape: circle, label: "Start"}
-angka@{ shape: lean-r, label: "input: angka" }
-modulus@{ shape: diamond, label: "sisa modulus 2 = 0" }
-hasilGn@{ shape: rect, label: "hasil = genap" }
-hasilGj@{ shape: rect, label: "hasil = ganjil"}
-hasil@{ shape: lean-r, label: "Output: hasil"}
+angka@{ shape: lean-r, label: "angka" }
+modulus@{ shape: diamond, label: "angka % 2 === 0" }
+hasilGn@{ shape: rect, label: "'genap'" }
+hasilGj@{ shape: rect, label: "'ganjil'" }
 selesai@{shape: doublecircle, label: "end"}
 
 mulai-->
 angka-->
 modulus--true-->hasilGn
 modulus--false-->hasilGj
-hasilGn-->hasil
-hasilGj-->hasil
-hasil-->selesai
+hasilGn-->selesai
+hasilGj-->selesai
+
 
 ```
