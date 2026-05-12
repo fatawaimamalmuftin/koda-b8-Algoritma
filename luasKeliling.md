@@ -24,11 +24,11 @@ Keliling = 2 x phi x r
 flowchart TD
 mulai@{shape: circle, label: "Start"}
 Rijari@{ shape: lean-r, label: "Rijari" }
-Phi@{ shape: rect, label: "Phi='3.14'" }
+Phi@{ shape: rect, label: "Phi = '3.14'" }
 Luas@{shape: rect, label: "HL = Phi x Rijari x Rijari"}
 Keliling@{shape: rect, label: "HK = 2 x Phi x Rijari"}
-HL@{ shape: lean-r, label: "'HL'" }
-HK@{ shape: lean-r, label: "'HK'" }
+HL@{ shape: lean-r, label: "'{HL}'" }
+HK@{ shape: lean-r, label: "'{HK}'" }
 selesai@{shape: doublecircle, label: "end"}
 
 mulai-->Rijari
