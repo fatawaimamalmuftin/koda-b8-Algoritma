@@ -20,10 +20,9 @@ selesai@{shape: doublecircle, label: "end"}
 genap@{ shape: lean-r, label: "'genap'" }
 ganjil@{ shape: lean-r, label: "'ganjil'" }
 
-mulai-->angka-->modulus-->ganjil
-                modulus-->genap
-ganjil-->selesai
-genap-->selesai
+mulai-->angka-->modulus-->ganjil-->selesai
+                modulus-->genap-->selesai
+
 ```
 
 ### PSeudo-Code
