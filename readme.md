@@ -39,3 +39,24 @@ hitungOngkir --> outputOngkir
 outputOngkir --> selesai
 
 ```
+
+## PSeudo-Code case: menghitung ongkir
+
+```pseudo
+
+DECLARE jarak : INTEGER
+DECLARE ongkir : INTEGER
+DECLARE tambahanJarak : INTEGER
+
+INPUT jarak
+
+IF jarak < 2 THEN
+   ongkir ← 5000
+ELSE
+   tambahanJarak ← jarak - 2
+   ongkir ← 5000 + (tambahanJarak * 3000)
+ENDIF
+
+OUTPUT ongkir
+
+```
