@@ -11,3 +11,31 @@
 7. jika jarak lebih kecil dari 2 output 5000
 8. end
 
+## Flowchart case: menghitung ongkir
+
+```mermaid
+flowchart TD
+
+mulai@{shape: circle, label: "Start"}
+inputJarak@{shape: lean-r, label: "jarak"}
+cekJarak@{shape: diamond, label: "jarak < 2 ?"}
+ongkirTetap@{shape: rect, label: "ongkir = 5000"}
+hitungTambahan@{shape: rect, label: "tambahanJarak = jarak - 2"}
+hitungOngkir@{shape: rect, label: "ongkir = 5000 + (tambahanJarak x 3000)"}
+outputOngkir@{shape: lean-r, label: "{ongkir}"}
+selesai@{shape: doublecircle, label: "End"}
+
+mulai --> inputJarak
+inputJarak --> cekJarak
+
+cekJarak --true--> ongkirTetap
+cekJarak --false--> hitungTambahan
+
+hitungTambahan --> hitungOngkir
+
+ongkirTetap --> outputOngkir
+hitungOngkir --> outputOngkir
+
+outputOngkir --> selesai
+
+```
